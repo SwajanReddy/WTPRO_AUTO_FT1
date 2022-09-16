@@ -1,0 +1,110 @@
+
+
+.box{
+  margin: auto;
+  width: 500px;
+  height:450px;
+  border: 3px solid #FFF8DC;
+  padding: 10px;
+  margin-top:70px;
+  box-shadow: 0 30px 48px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius:15px;
+  background-color:white;
+   backdrop-filter: blur(10px);
+}
+
+.inbox{
+  background-color:#F8F8FF;
+  position:relative;
+  margin: auto;
+  width: 80%;
+  border: 3px solid #DCDCDC;
+  border-radius:15px;
+  padding: 10px;
+  margin-top:10px;
+  padding-top:30px;
+}
+
+#log {
+ display: inline-block;
+  padding: 10px 22px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #00008B;
+  color:white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  margin:10px 140px;
+}
+
+#log{
+	
+}
+
+#log:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#log:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*************************signup button***/
+.sign{
+   vertical-align:middle;	
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 0px 170px;
+}
+
+.sign span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sign span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.sign:hover span {
+  padding-right: 25px;
+}
+
+.sign:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/**************************************/
+#de{
+	margin:0px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.box p{
+	padding-top:25px;
+	margin-left:50px;
+	font-family: "Lucida Console", "Courier New", monospace;
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="css/flickity.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/profile.css">
+ <style type = "text/css">
+    <title>Profile</title>
+	<style type = "text/css">
+     .carousel-cell {
+    width: 100%;
+    }
+
+    /* cell number */
+    .carousel-cell:before {
+      display: block;
+    }
+   .carousel-cell p{
+     text-align:center;
+   }
+   .footer-basic{
+	margin-top:500px;
+   }
+ </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </head>
+  <body>
+    
+	<div class="header">
+	  <a href="#default"><img class="lm" src="img/logo.jpg" alt="logo"></a>
+	  <a href="#default" class="logo">WheelerGO</a>
+	  <div class="header-right">
+		<a href="home.html">Home</a>
+		<a class="active" href="login.html">Logout</a>
+		<a href="contact.html">Contact</a>
+		<a href="#branches">Branches</a>
+		<a href="#faqs">FAQs</a>
+	  </div>
+	</div>
+	<img style="width:100%; height:10px;" src="img/headul.jpg">
+	
+	<div class="user">
+		<div class="propic">
+			<img src="img/pflogo.png" width="200" height="200" style="border-radius:100px">
+			<h5 style="text-align:center;">USER12345</h5>
+		</div>
+		<div class="quote">
+			<h4>There is never been a bad time to buy or sell your vechiles</h4>
+		</div>
+		<div class="util">
+			<ul class="nav flex-column">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">Profile</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Wishlist</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Payments</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">History</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">My Vechiles</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Settings</a>
+			  </li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class = "float-container">
+    <div class="float-child">
+		<div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/c1.jfif">
+			<p>Benz Machines</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/c2.jpeg">
+			<p>Add an AUDI to your garage</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/c3.jpeg">
+			<p>Be a HYUNDAI owner</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/c4.jpg">
+			<p>Mahindra proud</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/c5.jpeg">
+			<p>India's Favorite</p>
+		  </div>
+		</div>
+		<a href="sellcar.html"><button class="button" type="button">SELL</button></a>
+		<a href="buycar.html"><button class="button buy" type="button">BUY</button></a>
+	 </div> 
+	 
+	 <div class="float-child">
+		 <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/b1.jpg">
+			<p>Master of Torque</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/b2.jpeg">
+			<p>Track ? GO R15</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/b3.jpeg">
+			<p>125cc Segment King</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/b4.jpeg">
+			<p>Modern Scooters Rally</p>
+		  </div>
+		  <div class="carousel-cell">
+			<img class="w3-image" src="img/b5.jpg">
+			<p>Mileage ka Baap</p>
+		  </div>
+		 </div>
+		 <a href="sellbike.html"><button class="button" type="button">SELL</button></a>
+		<a href="buybike.html"><button class="button buy" type="button">BUY</button></a>
+	 </div>
+	 
+	</div>
+	
+	<div class="footer-basic">
+        <footer>
+            <div class="social">
+			<a href="#"><i class="icon ion-social-instagram"></i></a>
+			<a href="#"><i class="icon ion-social-snapchat"></i></a>
+			<a href="#"><i class="icon ion-social-twitter"></i></a>
+			<a href="#"><i class="icon ion-social-facebook"></i></a>
+			</div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">WheelerGo © 2021</p>
+        </footer>
+    </div> 
+	
+  </body>
+</html>

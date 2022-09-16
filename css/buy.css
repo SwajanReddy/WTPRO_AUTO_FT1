@@ -1,0 +1,106 @@
+.sebar{
+	  margin: auto;
+	  width: 70%;
+	  border: 1px;
+	  padding: 10px;
+}
+
+.fil{
+	width : 80%;
+	height : 70px;
+	border : 1px;
+	margin: auto;
+	padding: 1px;
+}
+
+.fitem{
+	position : relative;
+	width : 80px;
+	height : 50px;
+	border : 1px;
+	float : left;
+	margin: 0px 100px;
+}
+
+.b{
+	height:35px;
+	font-weight:500;
+	font-size:15px;
+}
+
+.cars{
+	border : 1px;
+	margin : auto;
+	height:100%;
+	position:relative;
+}
+
+.cd{
+	padding:3px;
+	position:relative;
+	border : 3px;
+	margin : 15px auto;
+	width :360px;
+	height: 350px;
+ 	background-color:#FFFAF0;
+	border-radius:5px;
+}
+
+.cd:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.24), 0 7px 20px 0 rgba(0,0,0,0.19);
+    border-radius:8px;
+}
+
+.cname{
+	margin : 5px;
+	text-align:center;
+	padding : 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.i{
+	margin:3px 20px;
+	padding:10px;
+	font-size: 15px;
+}
+
+.price{
+	padding :10px;
+	border-radius : 5px;
+	margin:5px;
+	background-color:#E0FFFF;
+	font-size: 150%;
+	font-weight: bold;
+	color:orange;
+}
+
+.more{
+	font-size:15px;
+	margin-right : 100px;
+	font-weight:700;
+	float : right;
+}
+
+.f{
+	margin-top:25px;
+}
+
+.cd img{
+  border-radius: 4px;
+  width: 350px;
+  height:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

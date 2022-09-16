@@ -1,0 +1,41 @@
+.user{
+	position:relative;
+	border : 1px grey solid;
+	height:270px;
+	width : 65%;
+	margin:0px auto;
+}
+
+.propic{
+	margin:10px 0px;
+	position:inherit;
+	height:200px;
+	width:200px;
+	border-radius:100px;
+	float:left;
+	background: url(img/pflogo.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.quote{
+	margin : 30px 5px;
+	position:inherit;
+	height:200px;
+	width:600px;
+	border-radius:10px;
+	float:left;
+}
+
+.quote h4{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 40px;
+	text-align:center;
+	margin :30px 20px;
+}
+
+.util{
+	position:inherit;
+	float : right;
+	margin:10px 30px;
+}
